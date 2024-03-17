@@ -13,7 +13,7 @@ export default function Home() {
       <StickyScrollRevealDemo />
       <InfiniteMovingCardsDemo />
       <CardHoverEffectDemo />
-      {/* <WavyBackgroundDemo /> */}
+      <WavyBackgroundDemo />
     </main>
   );
 }
