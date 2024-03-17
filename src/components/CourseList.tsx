@@ -30,7 +30,7 @@ export function CourseList() {
         </h1>
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
       {courses.map((course) => (
-        <div className="w-full ">
+        <div key={course.course_id}className="w-full ">
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
             <h1 className="text-lg font-bold text-gray-500">
               {course.course_title}
