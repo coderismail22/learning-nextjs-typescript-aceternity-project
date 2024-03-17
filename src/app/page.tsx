@@ -1,8 +1,9 @@
-import Image from "next/image";
 import { SpotlightPreview } from "@/components/SpotlightPreview";
 import { CourseList } from "@/components/CourseList";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { CardHoverEffectDemo } from "@/components/CardHoverEffectDemo";
+import { WavyBackgroundDemo } from "@/components/WavyBackgroundDemo";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <CourseList />
       <StickyScrollRevealDemo />
       <InfiniteMovingCardsDemo />
-      {/* USE "INFINITE MOVING CARDS" */}
+      <CardHoverEffectDemo />
+      {/* <WavyBackgroundDemo /> */}
     </main>
   );
 }
