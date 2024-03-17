@@ -54,6 +54,9 @@ const content = [
 export function StickyScrollRevealDemo() {
   return (
     <div className="p-10">
+                <h1 className="mb-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+          Sticky Scroll
+        </h1>
       <StickyScroll content={content} />
     </div>
   );

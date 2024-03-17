@@ -2,9 +2,14 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
-      <HoverEffect items={projects} />
-    </div>
+    <>
+      <h1 className="my-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        Services
+      </h1>
+      <div className="max-w-5xl mx-auto px-8">
+        <HoverEffect items={projects} />
+      </div>
+    </>
   );
 }
 export const projects = [
